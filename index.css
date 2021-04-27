@@ -35,6 +35,44 @@ form {
   padding: 3% 0;
 }
 
+.passwords-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.passwords-controls label {
+  padding: 1%;
+}
+
+.passwords-controls a {
+  padding-left: 3%;
+}
+
+.submit {
+  text-align: center;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.passwords-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.passwords-list ul {
+  list-style-type: none;
+}
+
+.passwords-list ul li {
+  background-color: rgb(187, 187, 187);
+  padding: 2% 6%;
+  margin: 3% 0;
+}
+
 footer {
   text-align: center;
   color: white;
