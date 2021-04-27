@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(116, 116, 116);
+}
+
+nav {
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 2%;
+}
+
+.landing-page {
+  text-align: center;
+  max-width: 60%;
+  margin: 2% auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 4% 0;
+}
